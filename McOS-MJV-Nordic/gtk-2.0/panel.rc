@@ -4,7 +4,7 @@ style "theme-panel" {
   ythickness = 0
 
   bg[NORMAL] = "#ffffff"
-  bg[ACTIVE] ="#A8BBCF"
+  bg[ACTIVE] = "#899DB1"
   bg[PRELIGHT] = "#81A1C1"
   bg[SELECTED] = "#81A1C1"
 
