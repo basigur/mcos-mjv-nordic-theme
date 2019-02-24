@@ -12179,7 +12179,7 @@ checkbutton label:not(:only-child):last-child{
 .xfce4-panel.background button {
 
   background-image: none;
-  background-color: #ffffff;
+  background-color: transparent;
   border-radius: 0;
   border: none;
   box-shadow: none;

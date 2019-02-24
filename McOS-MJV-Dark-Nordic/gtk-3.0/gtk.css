@@ -11788,7 +11788,7 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 .xfce4-panel.background button {
 
   background-image: none;
-  background-color: #3f4042;
+  background-color: transparent;
   border-radius: 0;
   border: none;
   box-shadow: none;
