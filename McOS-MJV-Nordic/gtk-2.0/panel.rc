@@ -4,13 +4,13 @@ style "theme-panel" {
   ythickness = 0
 
   bg[NORMAL] = "#ffffff"
-  bg[ACTIVE] = "#899DB1"
+  bg[ACTIVE] = "#ffffff"
   bg[PRELIGHT] = "#81A1C1"
   bg[SELECTED] = "#81A1C1"
 
   fg[NORMAL] = "#202020"
   fg[PRELIGHT] = @selected_fg_color
-  fg[ACTIVE] = @selected_fg_color
+  fg[ACTIVE] = "#202020"
   fg[SELECTED] = @selected_fg_color
 
   text[NORMAL] = "#ffffff"
