@@ -71,7 +71,7 @@ style "menubar-text" {
 }
 
 style "toolbar_entry" {
-
+  base[NORMAL] = "#444546"
   text[NORMAL] = "#bcbcbc"
 
   engine "pixmap" {

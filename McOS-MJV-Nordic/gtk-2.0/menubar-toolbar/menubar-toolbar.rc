@@ -71,7 +71,7 @@ style "menubar-text" {
 }
 
 style "toolbar_entry" {
-
+  base[NORMAL] = "#bbbbbb"
   text[NORMAL] = "#202020"
 
   engine "pixmap" {
