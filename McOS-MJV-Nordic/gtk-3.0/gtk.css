@@ -9934,7 +9934,7 @@ GtkListBox .h4 {
 #panel_window {
 
   background-color: rgba(43, 46, 55, 0.95);
-  color: #BAC3CF;
+  color: #6D7583;
   font-weight: bold;
   box-shadow: inset 0 -1px rgba(27, 29, 35, 0.95); }
 
@@ -9945,7 +9945,7 @@ GtkListBox .h4 {
 #panel_window menubar, #panel_window menubar > menuitem {
 
       background-color: transparent;
-      color: #BAC3CF;
+      color: #6D7583;
       font-weight: bold; }
 
 #panel_window menubar menuitem:disabled {
@@ -10139,13 +10139,13 @@ GtkListBox .h4 {
 
 #buttonbox_frame button {
 
-  color: #BAC3CF;
+  color: #6D7583;
   border-color: rgba(26, 28, 34, 0.35);
   background-color: rgba(102, 109, 132, 0.35); }
 
 #buttonbox_frame button:hover {
 
-  color: #BAC3CF;
+  color: #6D7583;
   border-color: rgba(26, 28, 34, 0.35);
   background-color: rgba(119, 127, 151, 0.45); }
 
@@ -12171,7 +12171,7 @@ checkbutton label:not(:only-child):last-child{
 
 .xfce4-panel.background {
 
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   color: #202020;
   text-shadow: none;
   font-weight: normal; }
