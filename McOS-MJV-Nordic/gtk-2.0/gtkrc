@@ -21,3 +21,9 @@ include "main.rc"
 include "apps.rc"
 include "menubar-toolbar/menubar-toolbar.rc"
 
+style "size-clock"
+{
+    font_name = "Droid Sans 12"
+}
+widget "*clock*"
+style "size-clock"
