@@ -9684,7 +9684,7 @@ GtkListBox .h4 {
 
   font-weight: normal;
   border-style: none;
-  background-color: transparent;
+  background-color: #212121;
   color: #202020; }
 
 #user_image {
@@ -9775,7 +9775,8 @@ GtkListBox .h4 {
 #content_frame {
 
   padding-bottom: 14px;
-  background-color: #f3f3f3;
+  background-color: #3a3a3c;
+  color: #dddddd;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -11789,15 +11790,17 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 
   background-image: none;
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 2px;
   border: none;
+  color: #ffffff;
+  text-shadow: 0px 1px alpha(#000000, 0.40),0 -1px alpha(#ffffff, 0.04),-1px  0px alpha(#ffffff, 0.04);
   box-shadow: none;
   padding: 0 1px;}
 
 .xfce4-panel.background button:active,
 .xfce4-panel.background button:checked {
 
-  background-color:#4f5052;
+  background-color:#81A1C1;
   background-image: none;
   border: none;
   color: #ffffff;

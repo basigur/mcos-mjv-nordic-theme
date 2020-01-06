@@ -9977,7 +9977,7 @@ GtkListBox .h4 {
 
   font-weight: normal;
   border-style: none;
-  background-color: transparent;
+  background-color: #81A1C1;
   color: #202020; }
 
 #user_image {
@@ -12173,22 +12173,23 @@ checkbutton label:not(:only-child):last-child{
 
   background-color: #f3f3f3;
   color: #202020;
-  text-shadow: none;
+  text-shadow: text-shadow: 0px 1px alpha(#000000, 0.40),0 -1px alpha(#ffffff, 0.04),-1px  0px alpha(#ffffff, 0.04);
   font-weight: normal; }
 
 .xfce4-panel.background button {
 
   background-image: none;
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 2px;
   border: none;
-  box-shadow: none;
+  color: #202020;
+  text-shadow: 0px 1px alpha(#000000, 0.40),0 -1px alpha(#ffffff, 0.04),-1px  0px alpha(#ffffff, 0.04);
   padding: 0 1px;}
 
 .xfce4-panel.background button:active,
 .xfce4-panel.background button:checked {
 
-  background-color:#81A1C1;
+  background-color: #81A1C1;
   background-image: none;
   border: none;
   color: #ffffff;
@@ -12199,9 +12200,10 @@ checkbutton label:not(:only-child):last-child{
 .xfce4-panel.background button:active:hover,
 .xfce4-panel.background button:checked:hover {
 
-  background-color:#81A1C1;
+  background-color:#f3f3f3;
   background-image: none;
-  color: #ffffff;
+  border-radius: 2px;
+  color: #212121;
   text-shadow: 0px 1px alpha(#000000, 0.40),0 -1px alpha(#ffffff, 0.04),-1px  0px alpha(#ffffff, 0.04);
   transition: none; }
 
